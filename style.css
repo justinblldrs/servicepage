@@ -1,3 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 *{
-    background-color: aliceblue;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font: 62.5%;
+    overflow-x: hidden;
+  }
+
+body {
+    background: black;
+    color: #ededed;
+  }
+
+section {
+    min-height: 100vh;
+    padding: 7rem 9% 2rem;
+}
+  
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.5rem 2%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+
+.navbar a {
+    font-size: .9rem;
+    color: black;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: .3s ease;
+  }
+
+.navbar a:hover, .navbar a.active {
+  color: blue;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.home-content h1 {
+    color: black;
+    font-size: 90px;
+  }
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    color: black;
+    text-align: center;
+    margin: 0 10rem;
+}
+
+.about h1 {
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.about p {
+    margin-bottom: 20px;
 }
